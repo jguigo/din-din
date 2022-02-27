@@ -43,3 +43,46 @@
     color: #FFF;
     background-color: #FF4081;
 }
+
+.curses-container{
+    height: 730px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.curses-container-content{
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center
+}
+
+.curses-container-content img{
+    height: 270px;
+    margin: 10px;
+}
+
+.curses-container-content h3{
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.curses-container-content p{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.curses-container-content a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #FF4081;
+    border-radius: 62px;
+    padding: 15px 40px
+}
