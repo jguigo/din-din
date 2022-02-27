@@ -86,3 +86,40 @@
     border-radius: 62px;
     padding: 15px 40px
 }
+
+.depo-list{
+    height: 701px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 128px;
+}
+
+.depo-list h2{
+    color: #009688;
+    font-size: 37px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.depo-list-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.depo-list-box-id{
+    width: 495px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-user{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.user-name{
+    font-weight: 400px;
+}
