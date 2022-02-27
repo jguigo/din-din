@@ -1,0 +1,17 @@
+.container{
+    height: 625px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container form{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
