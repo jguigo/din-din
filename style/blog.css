@@ -35,6 +35,13 @@
     justify-content: space-evenly;
     padding-bottom: 170px;
 }
+.container{
+    margin-top: 109px;
+}
+
+.container a{
+    text-decoration: none;
+}
 
 .post-resume{
     width: 510px;
@@ -42,7 +49,10 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-top: 109px;
+}
+
+.post-resume:hover{
+    box-shadow: 1px 4px 4px 0px rgb(0 0 0 / 40%);
 }
 
 .post-resume h2{
