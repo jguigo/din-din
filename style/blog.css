@@ -49,6 +49,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    transition: 300ms;
 }
 
 .post-resume:hover{
