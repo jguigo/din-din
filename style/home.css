@@ -6,15 +6,16 @@ h2{
 }
 
 .features-container{
-    height: 712px;
+    /* height: 712px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 5% 0;
 }
 
 .features-container-info{
-    width: 30%;
+    width: 320px;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -38,14 +39,12 @@ h2{
 }
 .features-container a{
     text-decoration: none;
-    text-align: center;
     color: #FF4081;
-    font-size: 27px;
-    font-weight: 400;
     border: 2px solid #FF4081;
     border-radius: 62px;
-    padding: 10px 10%;
-    transition: 300ms;
+    font-size: 27px;
+    font-weight: 400;
+    padding: 10px 25px;
 }
 
 .features-container a:hover{
@@ -54,11 +53,13 @@ h2{
 }
 
 .curses-container{
-    height: 730px;
+    /* height: 730px; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     background-color: #F7F7F7;
+    padding: 5% 0;
 }
 
 .curses-container-content{
@@ -98,10 +99,11 @@ h2{
 }
 
 .depo-list{
-    height: 701px;
+    /* height: 701px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 5% 0;
 }
 
 .depo-list-box{
@@ -128,15 +130,18 @@ h2{
 }
 
 .more-content{
-    height: 730px;
+    /* height: 730px; */
     display: flex;
+    
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #F7F7F7;
+    padding: 5% 0;
 }
 
 .flex-content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly ;
 }
 
@@ -175,4 +180,29 @@ h2{
 .btn-todos a:hover{
     color: #FFF;
     background-color: #FF4081;
+}
+
+@media screen and (max-width: 850px){
+    h2{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .features-container-info{
+        justify-content: center;
+        align-items: center;
+    }
+    .features-container-info h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .features-container-info p{
+        font-size: 18px;
+    }
+    .features-container-info a{
+        font-size: 18px;
+    }
+    .img-container{
+        display: none;
+    }
 }

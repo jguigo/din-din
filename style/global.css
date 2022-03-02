@@ -10,6 +10,7 @@ body{
 
 .wrapper{
     max-width: 1440px;
+    /* width: 100%; */
     margin: 0 auto;
 }
 
@@ -23,7 +24,9 @@ body{
 }
 
 .header-container{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
@@ -35,7 +38,7 @@ body{
 }
 
 .header-container ul li{
-    padding-left: 50px;
+    margin-right: 50px;
 }
 
 .header-container ul li a{
@@ -89,3 +92,24 @@ body{
     color: #2E948A;
     background-color: #FFF;
 }
+
+/* @media screen and (max-width:750px) {
+    .wrapper{
+        max-width: 750px
+    }
+
+    .header-container{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px;
+    }
+    .footer-container img{
+        width: 90%;
+    }
+    .header-container ul li{
+        margin: 0;
+        padding-right: 20px;
+    }
+} */
