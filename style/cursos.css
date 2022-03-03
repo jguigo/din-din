@@ -31,6 +31,7 @@ footer{
 
 .cursos-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-bottom: 70px;
@@ -79,3 +80,53 @@ footer{
 }
 
 
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 570px) {
+    img{
+        width: 70vw;
+    }
+    
+    .descr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .descr p{
+        width: 50vw;
+        text-align: center;
+    }
+
+    .cursos-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 70px;
+        /* text-align: left; */
+    }
+
+    .curso-info h2{
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto 20px auto;
+    }
+    .curso-info p{
+        width: 80vw;
+        margin: 0 auto 20px auto;
+    }
+    .btn-start{
+        margin: 20px auto;
+    }
+}
