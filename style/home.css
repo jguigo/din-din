@@ -2,7 +2,12 @@ h2{
     color: #009688;
     font-size: 37px;
     font-weight: 700;
-    margin-left: 128px;
+    margin-left: 10%;
+}
+
+.longo{
+    width: 100%;
+    background-color: #F7F7F7;
 }
 
 .features-container{
@@ -53,12 +58,10 @@ h2{
 }
 
 .curses-container{
-    /* height: 730px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #F7F7F7;
     padding: 5% 0;
 }
 
@@ -95,15 +98,14 @@ h2{
     font-weight: 400;
     background-color: #FF4081;
     border-radius: 62px;
-    padding: 15px 40px
+    padding: 10px 25px;
 }
 
 .depo-list{
-    /* height: 701px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 5% 0;
+    margin: 0 auto 5% auto;
 }
 
 .depo-list-box{
@@ -130,9 +132,7 @@ h2{
 }
 
 .more-content{
-    /* height: 730px; */
     display: flex;
-    
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #F7F7F7;
@@ -182,7 +182,36 @@ h2{
     background-color: #FF4081;
 }
 
+
+@media screen and (max-width: 1600px) {
+    
+}
+
 @media screen and (max-width: 850px){
+    h2{
+        text-align: center;
+    }
+
+    
+    .img-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .curses-container-content{
+        margin-bottom: 25px;
+    }
+    .curses-container-content h3{
+        margin: 5px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
     h2{
         text-align: center;
         margin: 0;
@@ -193,16 +222,17 @@ h2{
         align-items: center;
     }
     .features-container-info h1{
-        text-align: center;
-        font-size: 40px;
+        text-align: left;
+        font-size: 50px;
     }
     .features-container-info p{
-        font-size: 18px;
+        font-size: 22px;
     }
     .features-container-info a{
-        font-size: 18px;
+        font-size: 22px;
     }
-    .img-container{
-        display: none;
+
+    h2{
+        font-size: 30px;
     }
 }
