@@ -97,10 +97,6 @@ body{
     }
 }
 
-@media screen and (max-width: 992px) {
-    
-}
-
 @media screen and (max-width: 768px) {
     .footer-container{
         display: flex;
