@@ -5,8 +5,12 @@
     align-items: center;
 }
 
+.banner-lateral{
+    width: 40   vw;
+}
+
 .container form{
-    width: 35%;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -53,5 +57,10 @@ input:focus, textarea:focus{
 }
 
 @media screen and (max-width: 570px) {
-
+    .banner-lateral{
+        display: none;
+    }
+    .container form{
+        width: 95vw;
+    }
 }
