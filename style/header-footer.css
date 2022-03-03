@@ -4,10 +4,21 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.background-extendido{
+    background-color: #2E948A
+}
+
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 body{
     margin: 0;
 }
+
+    /* header */
 
 .main-container{
     margin: 100px 0;
@@ -15,10 +26,8 @@ body{
 
 .header-container{
     width: 100vw;
-    background-color: #2E948A;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -27,8 +36,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0;
-    gap: 20px
+    gap: 20px;
 }
 
 .header-nav ul li a{
@@ -36,4 +44,87 @@ body{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+    /* footer  */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btns-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btns-footer a{
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid #FFF;
+    border-radius: 62px;
+    padding: 5px 30px;
+
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 0;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .header-container{
+        width: 100vw;
+        background-color: #2E948A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
+    .header-nav ul{
+        padding: 0;
+        gap: 20px
+    }
 }
