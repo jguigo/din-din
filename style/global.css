@@ -5,13 +5,13 @@
 }
 
 .background-extendido{
-    width: 100%;
+    /* width: 100%; */
     background-color: #2E948A
 }
 
 .wrapper{
     max-width: 1440px;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
 }
 
@@ -21,12 +21,8 @@ body{
 
     /* header */
 
-.main-container{
-    margin: 100px 0;
-}
-
 .header-container{
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
