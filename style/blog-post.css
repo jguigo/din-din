@@ -1,5 +1,5 @@
 .postagem{
-    width: 75%;
+    width: 85vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     color: #FF4081;
     font-size: 50px;
     font-weight: 500;
-    margin: 111px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 .title time{
@@ -25,11 +25,11 @@
 }
 
 .postagem figure{
-    width: 100%;
+    width: 85vw;
 }
 
 .postagem figure img{
-    width: 100%;
+    width: 85vw;
     margin: 0 auto;
 }
 
@@ -44,27 +44,30 @@
 }
 
 .texto p{
+    width: 85vw;
     color: #000000;
     font-size: 18px;
     font-weight: 300;
 }
 
 .cursos{
-    height: 800px;
     background-color: #F7F7F7;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5vh 0;
 }
 .cursos h2{
     color: #FF4081;
     font-size: 50px;
     font-weight: 500;
+    margin-top: 0;
 }
 
 .cursos-container{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     gap: 50px;
 }
@@ -114,7 +117,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .cursos h2{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 570px) {
