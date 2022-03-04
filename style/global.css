@@ -5,21 +5,17 @@
 }
 
 .background-extendido{
-    /* width: 100%; */
     background-color: #2E948A
 }
 
 .wrapper{
     max-width: 1440px;
-    /* width: 100%; */
     margin: 0 auto;
 }
 
 body{
     margin: 0;
 }
-
-    /* header */
 
 .header-container{
     width: 95vw;

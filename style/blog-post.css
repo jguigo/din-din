@@ -1,10 +1,11 @@
 .postagem{
-    width: 85vw;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 111px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .title{
     text-align: center;
@@ -15,7 +16,7 @@
     color: #FF4081;
     font-size: 50px;
     font-weight: 500;
-    margin: 100px 0px 0px 0px;
+    margin: 50px 0 0 0;
 }
 
 .title time{
@@ -25,11 +26,12 @@
 }
 
 .postagem figure{
-    width: 85vw;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .postagem figure img{
-    width: 85vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -44,30 +46,33 @@
 }
 
 .texto p{
-    width: 85vw;
     color: #000000;
     font-size: 18px;
     font-weight: 300;
 }
 
-.cursos{
+.background-ext{
+    width: 100%;
     background-color: #F7F7F7;
+}
+
+.cursos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh 0;
+    padding: 100px 0;
 }
 .cursos h2{
     color: #FF4081;
     font-size: 50px;
     font-weight: 500;
-    margin-top: 0;
+    margin: 0 0 50px 0;
 }
 
 .cursos-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
@@ -112,16 +117,18 @@
 
 }
 
-@media screen and (max-width: 992px) {
-    
-}
-
-@media screen and (max-width: 768px) {
-    .cursos h2{
-        text-align: center;
+@media screen and (max-width: 1050px) {
+    .cursos-container{
+        justify-content: space-around;
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 768px) {
 
+}
+
+@media screen and (max-width: 570px) {
+    .title h1, .cursos h2{
+        text-align: center;
+    }
 }
