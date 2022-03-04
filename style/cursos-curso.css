@@ -1,17 +1,16 @@
 .container-top{
-    /* height: 542px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10vh;
 }
 .container-top img{
-    height: 40vw;
+    width: 20vw;
 }
 
 .curso-intro{
-    width: 80vw;
+    width: 30vw;
 }
 
 .curso-intro h1{
@@ -57,6 +56,10 @@
     border: 3px solid #8E8E8E;
 }
 
+.video-aula img{
+    cursor: pointer;
+}
+
 .aulas-resumo{
     width: 500px;
 }
@@ -83,9 +86,15 @@
     .curso-intro{
         margin:0 auto;
     }
+
 }
 
 @media screen and (max-width: 768px) {
+
+    .curso-intro{
+        width: 80vw;
+    }
+
     .curso-intro h1{
         font-size: 35px;
     }

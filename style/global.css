@@ -79,7 +79,12 @@ body{
     border: 2px solid #FFF;
     border-radius: 62px;
     padding: 5px 30px;
+    transition: 300ms;
+}
 
+.btns-footer a:hover{
+    background-color: #FFF;
+    color: #2E948A;
 }
 
 
