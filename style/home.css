@@ -148,6 +148,11 @@ h2{
 
 .flex-content a{
     text-decoration: none;
+    transition: 300ms;
+}
+
+.flex-content a:hover{
+    box-shadow: 1px 4px 4px 0px rgb(0 0 0 / 40%);
 }
 
 .more-content-content{
