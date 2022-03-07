@@ -4,7 +4,7 @@ Esse desafio proposto pela <strong>Gama Academy!</strong>
 <br>
 <h2>Sobre</h2>
 O objetivo era desenvolver um site para um empresa de educação finaneira fictícia chamada <strong>DINDIN.</strong><br>
-Se quiser saber mais: [Link do projeto](https://jguigo.github.io/din-din/)
+Se quiser saber mais: <a href="https://jguigo.github.io/din-din/">link do projeto</a>
 
 <h2>Ferramentas utilizadas</h2>
 <ul>
